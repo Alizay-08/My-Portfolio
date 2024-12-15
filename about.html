@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="port.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo fs-2">Portfolio</div>
+        <div class="toggle-btn" onclick="toggleMenu()">&#9776;</div>
+        <ul id="nav-links">
+            <li><a href="index.html">Services</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <!-- navbar end -->
+
+    <div class="aboutme">
+        <div class="aboutbanner">
+            <img class="about-img" src="service.jpg">
+            <div class="about-text"><h1>About Me</h1></div>
+        </div>
+    
+    <br>
+    <div class="skills-container">
+      <h1>My Skills</h1>
+      <div class="skill">
+        <div class="skill-label">HTML</div>
+        <div class="skill-bar">
+          <div class="skill-bar-fill" style="width: 90%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-label">CSS</div>
+        <div class="skill-bar">
+          <div class="skill-bar-fill" style="width: 90%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-label">JavaScript</div>
+        <div class="skill-bar">
+          <div class="skill-bar-fill" style="width: 60%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-label">BootStrap</div>
+        <div class="skill-bar">
+          <div class="skill-bar-fill" style="width: 80%;"></div>
+        </div>
+      </div>
+    </div>
+
+    <h1 id="reviews" >Reviews</h1>
+    <div class="testimonials-list">
+        <div class="testimonial">
+            <h2>Maheen Khan</h2>
+            <p>"I collaborated with you on a website redesign, and the results exceeded my expectations. Your designs are modern, clean, and responsive. I loved working with you!"</p>
+        </div>
+        <div class="testimonial">
+            <h2>Bisma Fatima</h2>
+            <p>"Your UI/UX design skills transformed my app into a user-friendly experience. The attention to detail and usability was remarkable. Thank you for your amazing work!"</p>
+        </div>
+        <div class="testimonial">
+            <h2>Maryam Khan</h2>
+            <p>"You helped streamline our data entry processes, and the accuracy and efficiency were impressive. Your skills saved us a lot of time. Highly recommended!"</p>
+        </div>
+        <div class="testimonial">
+            <h2>Asra Ali</h2>
+            <p>"Your MS Office solutions made our workflow seamless and automated. I appreciate your expertise and professionalism throughout the project!"</p>
+        </div>
+        <div class="testimonial">
+            <h2>Shameen Rashid</h2>
+            <p>"The website you developed for my small business has been a game-changer. It’s fast, responsive, and visually appealing. You’re a true professional!"</p>
+        </div>
+    </div>
+</div>
+    <footer>
+        <div class="footerbottom fs-2">
+            <p>&copy; Portfolio 2024 | Alizay Khan</p>
+        </div>
+      </footer>
+
+
+
+      <!-- javascript here -->
+
+<script>
+    function toggleMenu() {
+        const navLinks = document.getElementById('nav-links');
+        navLinks.classList.toggle('active');
+    }
+  //  skills js
+  const bars = document.querySelectorAll('.skill-bar-fill');
+  
+  const animateBars = () => {
+    bars.forEach(bar => {
+      const width = bar.style.width;
+      bar.style.width = '0';
+      setTimeout(() => {
+        bar.style.width = width;
+      }, 200);
+    });
+  };
+  
+  window.addEventListener('load', animateBars);
+  
+  </script>
+  
+  
+  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+</body>
+</html>
