@@ -88,7 +88,7 @@ footer {
 .services{
     margin: 0;
     padding: 0;
-    background-color: rgb(227, 199, 227);
+    background-color: rgb(232, 176, 232);
 }
 .banner{
     position: relative;
@@ -109,7 +109,7 @@ footer {
 }
 .banner-text h3{
     font-size: 50px;
-    color: rgb(70, 6, 70);
+    color:  palevioletred;
     font-weight: bolder;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: underline;
@@ -130,28 +130,22 @@ footer {
     margin-top: 45px;
 }
 .project h1{
-    color: purple;
+    color:  palevioletred;
     font-size: 40px;
     font-weight: bold;
     font-style: italic;
     padding-left: 27px;
     text-decoration: underline;
     text-align: center;
-    background-color: plum;
     margin-right: 10%;
     margin-left: 6%;
 
 }
 .pro-img{
-    padding-left: 60px;
-    background-color: plum;
+   
     box-sizing: border-box;
-    margin-right: 10%;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-left: 6%;
+    justify-content: center;
+    align-items: center;
 }
 .pro-img:hover{
     font-size: larger;
@@ -166,9 +160,8 @@ body{
       max-width: 800px;
       margin: 0 auto;
       padding: 20px;
-      background: #fff;
       border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.1);
     }
 
     .skill {
@@ -192,7 +185,7 @@ body{
 
     .skill-bar-fill {
       height: 100%;
-      background: linear-gradient(90deg, plum, purple);
+      background: linear-gradient(90deg, plum,palevioletred);
       width: 0%;
       transition: width 1s ease;
     }
@@ -204,7 +197,7 @@ body{
     }
 
   .skills-container h1{
-    color: purple;
+    color: palevioletred;
     font-size: 40px;
     font-weight: bold;
     font-style: italic;
@@ -237,7 +230,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     text-align: center;
-    background-color: plum;
+   
 }
 
 h1 {
@@ -246,7 +239,7 @@ h1 {
     font-weight: bold;
 }
 #Our{
-    color: purple;
+    color:  palevioletred;
     font-size: 40px;
     font-weight: bold;
     text-decoration: underline;
@@ -261,8 +254,8 @@ h1 {
 }
 
 .service {
-    background-color: var(--primary-color);
-    color: var(--text-color);
+    background-color:#f9dddb	(249,221,219);
+    color: black;
     border-radius: 8px;
     padding: 20px;
     width: calc(33.333% - 40px); /* 3 columns */
@@ -319,7 +312,7 @@ h1 {
 }
 .about-text h1{
     font-size: 50px;
-    color: rgb(70, 6, 70);
+   color: palevioletred;
     font-weight: bold;
     font-family: "Poppins";
     text-decoration: underline;
@@ -337,14 +330,13 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    background-color: #ffffff;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 20px;
     padding-right: 20px;
 }
 #reviews{
-    color: purple;
+    color: palevioletred;
     font-size: 40px;
     font-weight: bold;
     text-decoration: underline;
@@ -352,8 +344,8 @@ h1 {
     text-align: center;
 }
 .testimonial {
-    background-color: var(--primary-color);
-    color: var(--text-color);
+    background-color:#d5c4d4	(213,196,212);
+    color: black;
     border-radius: 8px;
     padding: 20px;
     width: calc(33.333% - 40px); /* 3 columns */
@@ -411,7 +403,7 @@ h1 {
 
 .contactbanner h1 {
     position: absolute;
-    color: purple;
+    color: palevioletred;
     font-size: 4em;
     font-weight: bold;
     text-decoration: underline;
@@ -469,16 +461,11 @@ h1 {
 }
 
 .contact-info h3 {
-    color: darkorchid;
+    color: palevioletred;
     font-size: 35px;
     margin-bottom: 10px;
-    font-weight:500;
-}
-.contact-info h3 :hover{
-    
     font-weight:bold;
 }
-
 .contact-info p {
     color: black;
     font-size: 30px;
@@ -504,11 +491,11 @@ h1 {
 
 .right-section {
     flex: 1;
-    background-color: #7b087b;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .contact-form {
@@ -555,8 +542,8 @@ input:focus, textarea:focus {
 button {
     width: 100%;
     padding: 10px;
-    background-color: darkmagenta;
-    color: white;
+    background-color: plum;
+    color: black;
     border: none;
     border-radius: 5px;
     font-size: 16px;
@@ -583,6 +570,6 @@ button:hover {
     font-size: 35px;
 }
 .socialIcons i{
-    color: purple;
+    color: palevioletred;
     padding-bottom: 4px;
 }
