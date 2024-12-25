@@ -202,7 +202,7 @@ h1 {
     border-radius: 8px;
     padding: 20px;
     width: calc(33.333% - 40px); /* 3 columns */
-    box-shadow: 0 4px 6px grey;
+    box-shadow: 3px 4px 4px 5px grey;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 

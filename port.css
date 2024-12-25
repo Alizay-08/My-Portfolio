@@ -306,12 +306,13 @@ h1 {
 .about-text{
     position: absolute;
     top: 8%;
-    padding: 20px;
     text-align: center;
     display: flex;
+    float: right;
+    padding-left: 40%;
 }
 .about-text h1{
-    font-size: 50px;
+    font-size: 70px;
    color: palevioletred;
     font-weight: bold;
     font-family: "Poppins";
