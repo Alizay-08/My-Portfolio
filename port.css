@@ -8,7 +8,7 @@ body {
 }
 
 .navbar {
-    background-color:purple; 
+    background-color:palevioletred; 
     color: black;
     padding: 10px 20px;
     display: flex;
@@ -54,7 +54,7 @@ body {
     .navbar ul {
         display: none;
         flex-direction: column;
-        background-color: #6a0dad; /* Purple theme */
+        background-color: #6a0dad;
         position: absolute;
         top: 60px;
         right: 0;
@@ -73,7 +73,7 @@ body {
 
 
 footer {
-    background-color:purple;
+    background-color:palevioletred;
     color: black;
     text-align: center;
     padding: 10px 0;
@@ -161,7 +161,7 @@ body{
       margin: 0 auto;
       padding: 20px;
       border-radius: 8px;
-      box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.1);
+      box-shadow:7px 3px 5px 7px grey;
     }
 
     .skill {
@@ -171,7 +171,7 @@ body{
     .skill-label {
       font-size: 16px;
       margin-bottom: 8px;
-      color: #333;
+      color: whitesmoke;
     }
 
     .skill-bar {
@@ -221,8 +221,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: var(--secondary-color);
-    color: var(--text-dark);
+    background-color:#000;
+    color:white;
 }
 
 .service-container {
@@ -230,7 +230,6 @@ body {
     margin: 0 auto;
     padding: 20px;
     text-align: center;
-   
 }
 
 h1 {
@@ -251,6 +250,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+
 }
 
 .service {
@@ -294,7 +294,7 @@ h1 {
 .aboutme{
     margin: 0;
     padding: 0;
-    background-color:rgb(232, 176, 232) ;
+    background-color: #000 ;
  }
  .aboutbanner{
     position: relative;
@@ -345,17 +345,17 @@ h1 {
 }
 .testimonial {
     background-color:#d5c4d4	(213,196,212);
-    color: black;
+    color:white;
     border-radius: 8px;
     padding: 20px;
     width: calc(33.333% - 40px); /* 3 columns */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px grey;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .testimonial:hover {
     transform: translateY(-10px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 12px gray;
 }
 
 .testimonial h2 {
@@ -391,7 +391,7 @@ h1 {
 .contact-content {
     margin: 0;
     padding: 0;
-    background-color: plum;
+    background-color:#000;
     box-sizing: border-box;
 }
 
@@ -422,7 +422,7 @@ h1 {
 
 .content-wrapper {
     margin-top: -5px; 
-    background-color: plum; 
+    background-color:#000; 
     padding: 20px;
 }
 
@@ -440,7 +440,7 @@ h1 {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    background-color: plum;
+    background-color:#000;
 }
 
 .left-section, .right-section {
@@ -450,7 +450,6 @@ h1 {
 
 .left-section {
     flex: 1;
-    background-color: plum;
     border-radius: 10px;
     margin-right: 10px;
 }
@@ -467,7 +466,7 @@ h1 {
     font-weight:bold;
 }
 .contact-info p {
-    color: black;
+    color:white;
     font-size: 30px;
     margin-bottom: 10px;
     font-weight: 500;
@@ -478,7 +477,7 @@ h1 {
 
 
 .map {
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -504,13 +503,13 @@ h1 {
     background: white;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 6px 3px 5px 8px grey;
 }
 
 .contact-form h2 {
     font-size: 24px;
     margin-bottom: 20px;
-    color: #7b087b;
+    color:palevioletred;
     text-align: center;
 }
 
@@ -535,14 +534,14 @@ input, textarea {
 
 input:focus, textarea:focus {
     outline: none;
-    border-color: #7b087b;
-    box-shadow: 0 0 5px rgba(123, 8, 123, 0.5);
+    border-color: palevioletred;
+    box-shadow: 0 0 5px pink;
 }
 
 button {
     width: 100%;
     padding: 10px;
-    background-color: plum;
+    background-color: palevioletred;
     color: black;
     border: none;
     border-radius: 5px;
@@ -553,7 +552,7 @@ button {
 }
 
 button:hover {
-    background-color: purple;
+    background-color: pink;
 }
 
 @media (max-width: 768px) {
